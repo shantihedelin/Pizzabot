@@ -1,0 +1,77 @@
+h1 {
+  color: rgb(245, 120, 141);
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 45px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.containerPicturesAndNames {
+  display: flex;
+  justify-content: center;
+}
+
+.Pepperoni,
+.Hawaiian,
+.Vegetarian {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+}
+
+img {
+  margin: 20px;
+  height: 200px;
+}
+
+.pizza {
+  display: flex;
+  justify-content: center;
+}
+
+#pizzaForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  margin: 10px;
+}
+
+#pizzaType,
+#quantity {
+  width: 200px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+button {
+  background-color: rgb(245, 120, 141);
+  font-size: 15px;
+  height: 28px;
+}
+
+#resultSection {
+  display: flex;
+  justify-content: center;
+}

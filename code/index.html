@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pizzabot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to Grandmas pizzeria</h1>
+
+    <div class="containerPicturesAndNames">
+      <div class="Pepperoni">
+        <img
+          src="https://tastesbetterfromscratch.com/wp-content/uploads/2023/06/Pepperoni-Pizza-1.jpg"
+          alt="Picture of Pepperoni Pizza"
+        />
+        <div class="pizza">Pepperoni</div>
+      </div>
+
+      <div class="Hawaiian">
+        <img
+          src="https://czasopismo.klarstein.pl/wp-content/uploads/2023/02/KS_Magazine_0223_Pizza-Hawaii_1300x1300px.jpg"
+          alt="Picture of Hawaiian pizza."
+        />
+        <div class="pizza">Hawaiian</div>
+      </div>
+      <div class="Vegetarian">
+        <img
+          src="https://cdn.loveandlemons.com/wp-content/uploads/2023/02/vegetarian-pizza.jpg"
+          alt="Picture of Vegetarian Pizza."
+        />
+        <div class="pizza">Vegetarian</div>
+      </div>
+    </div>
+
+    <h2>Order your Pizza here! &#x1F447;</h2>
+
+    <form id="pizzaForm">
+      <label
+        >Pizza Type:
+        <input type="text" id="pizzaType" required />
+      </label>
+
+      <label
+        >Quantity:
+        <input type="number" id="quantity" required />
+      </label>
+      <div class="buttonContainer">
+        <button type="button" onclick="submitOrder()">Submit Order</button>
+      </div>
+    </form>
+
+    <div id="resultSection"></div>
+
+    <script src="./pizzabot.js" charset="utf-8"></script>
+  </body>
+</html>
